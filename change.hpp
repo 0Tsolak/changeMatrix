@@ -9,7 +9,7 @@ const int col = 5;
 // Declaring all functions we'll use in project
 int length(int);
 
-void print(int[][col]);
+void printMatrix(int[][col]);
 
 int DecimalToBinary(int);
 
