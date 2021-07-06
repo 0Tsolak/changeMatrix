@@ -1,5 +1,7 @@
 #include "change.hpp"
 
+// This function counts and returns the amount of the elements
+// that are above the main diagonal
 int sumUp(int a[][col]) {
 
 	int sum = 0;
@@ -7,5 +9,6 @@ int sumUp(int a[][col]) {
 		for(int j = i + 1; j < col; ++j)
 			sum += a[i][j];
 	}
+
 	return sum;
 }
