@@ -7,14 +7,14 @@ int main() {
 	
 	// Printing Given matrix
 	std::cout << "Given matix\n\n";
-	print(a);
+	printMatrix(a);
 	
 	// Calling this function to make changes in the matrix
 	change(a);
 
 	// Printing already changed matrix
 	std::cout << "\nCanged matrix\n\n";
-	print(a);
+	printMatrix(a);
 
 	return 0;
 }
