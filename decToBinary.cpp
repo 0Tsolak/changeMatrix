@@ -1,10 +1,11 @@
 #include "change.hpp"
 
-
-int DecimalToBinary ( int number ) {	
+// This function gets a decimal number as an argument
+// and converts it to binary and returns the value 
+int DecimalToBinary ( int number ) {
+	
 	int BinaryNumber = 0, i = 1;
 	
-	// Converting to binary
 	while ( number > 0 ) {
 		int remainder = number % 2;
 		BinaryNumber += remainder * i;
