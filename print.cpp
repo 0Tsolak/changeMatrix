@@ -1,6 +1,7 @@
 #include "change.hpp"
 
-void print(int a[][col]) {
+// This function prints the matrix
+void printMatrix(int a[][col]) {
 
 	for(int i = 0; i < row; ++i) {
 	       	for(int j = 0; j < col; ++j)
