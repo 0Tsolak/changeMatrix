@@ -1,6 +1,6 @@
 #include "change.hpp"
 
-// This function counts and returns the amount of the elements
+// This function counts and returns the sum of the elements
 // that are above the main diagonal
 int sumUp(int a[][col]) {
 
